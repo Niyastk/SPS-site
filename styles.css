@@ -1,3 +1,4 @@
+
 .site-title{
 text-decoration: none;
 font-family: Montserrat;
@@ -18,12 +19,13 @@ font-size:2rem;
   right:-10px;
   position:fixed;
   bottom: 70px;
- 
+  z-index: 1;
 
 }
 .fixed-button a{
 color: white;
 text-decoration: none;
+
 }
 
 
@@ -169,6 +171,8 @@ font-weight: 300;
   left: -21px;
   text-align: center;
   padding-top: 8px;
+  color: #fff;
+
 
 }
 .second-line-row{
@@ -194,6 +198,8 @@ border-bottom-right-radius: 10px;
   right: -23px;
   top: 35%;
   padding-top: 8px;
+  color: #fff;
+
   
 }
 .third-line-div{
@@ -214,6 +220,8 @@ border-bottom-right-radius: 10px;
   left: -20px;
 text-align: center;
 padding-top: 8px;
+color: #fff;
+
 
 
 }
@@ -229,6 +237,7 @@ font-family: Montserrat;
 }
 .section-4{
   background-color: #F6F6F6;
+  overflow-x:hidden;
 
 }
 .section-4-title{
@@ -295,6 +304,7 @@ position: relative;
   text-align: center;
   padding-top: 8px;
   right: -20px;
+  color: #fff;
 }
 .section-line-3-div1{
   border-top: 3px solid #00d2b5;
@@ -315,12 +325,14 @@ position: relative;
   padding-top: 8px;
   left: -20px;
   top:40%;
+  color: #fff;
 
 }
 .section-line-4-div2{
   border-top: 3px solid #00d2b5;
   border-right: 3px solid #00d2b5;
   position: relative;
+  border-top-right-radius: 10px;
 }
 
 .section-line-4-div2::before{
@@ -334,6 +346,8 @@ text-align: center;
 padding-top: 8px;
 right: -20px;
 bottom: 0;
+color: #fff;
+
 
 
 }
@@ -380,12 +394,12 @@ font-family:Montserrat;
 .chat2::before{
 content: '';
 position: absolute;
-/* height: 20px;
-width: 30px; */
 border-right: 15px solid #E5E5EA;
 border-bottom-right-radius: 100%;
 bottom: -7px;
 left: -10px;
+color: #fff;
+
 
 
 }
